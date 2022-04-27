@@ -1,0 +1,10 @@
+<%- include('partials/header.ejs') %>
+<div class="card mt-5 text-center" style="width: 60%; margin: auto;">
+    <h5 class="card-header">Student Profile</h5>
+    <div class="card-body">
+      <h5 class="card-title"><%= firstName %> <%= lastName %></h5>
+      <p class="card-text"><%= rollNum %></p>
+      <a href="/profile" class="btn btn-primary">Go to profile</a>
+    </div>
+  </div>
+<%- include('partials/footer.ejs') %>
